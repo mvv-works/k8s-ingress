@@ -43,7 +43,7 @@ metadata:
   annotations: 
     alb.ingress.kuberneres.io/scheme: interner-facing
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
-    alb.ingress.kubernetes.io/certificate-arn:  
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:995310840186:certificate/0c32f5fb-db84-4537-9870-d6b539f0680a
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/tags: Environment=dev,Team=test
     alb.ingress.kubernetes.io/group.name: roboshop
