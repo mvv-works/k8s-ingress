@@ -50,7 +50,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: "app2.daws90s.shop"
+  - host: "app2.devops550.online"
     http:
       paths:
       - path: "/"
